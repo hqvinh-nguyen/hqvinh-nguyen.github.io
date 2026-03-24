@@ -1,0 +1,65 @@
+li a {
+    color: white;               
+    text-decoration: none;    
+}
+
+nav {
+    background-color: #333;
+    padding: 15px 0;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+li {
+    margin: 20px;
+    margin-bottom: 5px;
+    float: left;
+    display:flexbox;
+    margin-right: 15px;
+    font-size:larger;
+    font-weight:bold;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color:aquamarine;
+}
+
+#logo {
+    float:left;
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    top: 30px;
+}
+#headerbackground {
+    height: 200px;
+    width: 100%;
+    float:left;
+}
+
+nav a.active {
+    color: rgb(0, 255, 187) !important; /* Đổi màu vàng */
+    border-bottom: 2px solid rgb(0, 255, 17);
+    font-weight: bold;
+}
+
+h1 a{
+    float:left;
+    text-decoration: none;
+    display:inline-flexbox;
+    margin-right:10%;
+    color:rgb(0, 255, 17);
+}
+h1 a:hover {
+    color:aquamarine;
+}
+
+#target {
+    color:green;
+}
