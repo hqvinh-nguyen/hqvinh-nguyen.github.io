@@ -51,7 +51,7 @@ body {
     height: 128px;
     object-fit: cover;
     border-radius: 8px;
-    border: 1px solid var(--border);
+    border: 1.5px solid #8B4513;
 }
 
 .site-header h1 {
