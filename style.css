@@ -79,7 +79,7 @@ body {
     padding: 8px 14px;
     color: var(--text);
     border-radius: 8px;
-    border: 1px solid transparent;
+    border: 1px solid #D2691E;
     transition: all .2s ease;
 }
 
