@@ -1,26 +1,49 @@
-<!DOCTYPE html>
-<html lang ="vn">
+﻿<!DOCTYPE html>
+<html lang="vi">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dự án - Vinh Portfolio</title>
     <link rel="stylesheet" href="../style.css">
     <script src="../script.js" defer></script>
-    <title>Portfolio</title>
 </head>
 <body>
-    <header>
-        <div>
-            <img src="../pictures/vinhlogo.png" id="logo">
-            <img src="../pictures/hqdefault.jpg" id="headerbackground"> 
-        </div>
-        <nav>
-            <ul>
-                <li id="li1"><a href="../html/info.html">Thông tin cá nhân</a></li>
-                <li id="li2"><a href="../html/projects.html">Các dự án/sản phẩm tiêu biểu</a></li>
-                <li id="li3"><a href="../html/skills.html">Kỹ năng & Công cụ</a></li>
-                <li id="li4"><a href="../html/experiments.html">Kinh nghiệm làm việc & Đào tạo</a></li>
-                <li id="li5"><a href="../html/achivements.html">Thành tựu & Chứng chỉ</a></li>
-            </ul>
-        </nav>
-    </header>
-    <h1>đang làm</h1>
+    <div class="site-wrapper">
+        <header class="site-header">
+            <div class="brand">
+                <img src="../pictures/profile.jpg" alt="Logo" class="logo">
+                <div>
+                    <h1>Dự án tiêu biểu</h1>
+                    <p class="subtitle">Danh sách dự án hiển thị theo phong cách thẻ dễ quản lý.</p>
+                </div>
+            </div>
+            <nav class="main-nav" aria-label="Main navigation">
+                <ul>
+                    <li><a href="About.html">Thông tin cá nhân</a></li>
+                    <li><a href="Projects.html">Dự án</a></li>
+                    <li><a href="skills.html">Kỹ năng</a></li>
+                    <li><a href="Certificates.html">Kinh nghiệm</a></li>
+                    <li><a href="achivements.html">Thành tựu</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section class="card-grid">
+                <article class="card">
+                    <h4>Project 1</h4>
+                    <p>1 Trang Portfolio tĩnh cho cá nhân sử dụng.</p>
+                </article>
+                <article class="card">
+                    <h4>Project 2</h4>
+                    <p>Sử dụng AHK để tự động hóa 1 số thao tác trên desktop.</p>
+                </article>
+                <article class="card">
+                    <h4>Project 3</h4>
+                    <p>...</p>
+                </article>
+            </section>
+        </main>
+        <footer class="site-footer">© 2026 Vinh</footer>
+    </div>
 </body>
 </html>

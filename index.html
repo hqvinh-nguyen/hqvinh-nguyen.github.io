@@ -1,26 +1,44 @@
-<!DOCTYPE html>
-<html lang ="vn">
+﻿<!DOCTYPE html>
+<html lang="vi">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vinh Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
-    <title>Portfolio</title>
 </head>
 <body>
-    <header>
-        <div>
-            <img src="pictures/vinhlogo.png" id="logo">
-            <img src="pictures/hqdefault.jpg" id="headerbackground"> 
-        </div>
-        <nav>
-            <ul>
-                <li id="li1"><a href="html/info.html">Thông tin cá nhân</a></li>
-                <li id="li2"><a href="html/projects.html">Các dự án/sản phẩm tiêu biểu</a></li>
-                <li id="li3"><a href="html/skills.html">Kỹ năng & Công cụ</a></li>
-                <li id="li4"><a href="html/experiments.html">Kinh nghiệm làm việc & Đào tạo</a></li>
-                <li id="li5"><a href="html/achivements.html">Thành tựu & Chứng chỉ</a></li>
-            </ul>
-        </nav>
-    </header>
-    <h1>Xin chào, mình là vinh và đây là trang web của mình</h1></1>
+    <div class="site-wrapper">
+        <header class="site-header">
+            <div class="brand">
+                <img src="pictures/profile.jpg" alt="Logo" class="logo">
+                <div>
+                    <h1>Hi, Mình là Vinh</h1>
+                    <p class="subtitle">-Mình sẽ cố gắng để đạt thứ mình muốn.</p>
+                </div>
+            </div>
+            <nav class="main-nav" aria-label="Main navigation">
+                <ul>
+                    <li><a href="html/About.html">Thông tin cá nhân</a></li>
+                    <li><a href="html/Projects.html">Dự án</a></li>
+                    <li><a href="html/skills.html">Kỹ năng</a></li>
+                    <li><a href="html/Certificates.html">Kinh nghiệm</a></li>
+                    <li><a href="html/achivements.html">Thành tựu</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section class="hero">
+                <h2>Portfolio cá nhân</h2>
+                <p>Đây là nơi mình trình bày kinh nghiệm, kỹ năng và sản phẩm nổi bật.</p>
+                <a class="btn" href="html/Projects.html">Xem dự án tiêu biểu</a>
+            </section>
+        </main>
+
+        <footer class="site-footer">
+            <p>© 2026 NHQ.Vinh</p>
+        </footer>
+    </div>
 </body>
 </html>
