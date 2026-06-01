@@ -1,4 +1,4 @@
-:root {
+﻿:root {
     --bg: #0f172a;
     --surface: #111827;
     --surface-light: #1e293b;
@@ -278,6 +278,17 @@ img {
     padding: 32px 16px 48px;
     text-align: center;
     color: var(--muted);
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.brand img {
+    width: 28px;
+    height: 28px;
 }
 
 @media (max-width: 860px) {
